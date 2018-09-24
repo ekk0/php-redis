@@ -61,7 +61,7 @@ class Order extends \think\Controller{
     /**
      * 增加redis 队列 和 随便设置商品数量
      */
-    public function addRedisNumber(){
+    public function addRedisQueue(){
 
         Redis::getConn()->lTrim(Redis::$good_total_field,1,0);
         for ($i = 1;$i <= $this->goodTotal;$i++){
