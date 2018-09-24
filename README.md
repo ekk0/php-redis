@@ -1,6 +1,6 @@
 ThinkPHP 5.0 + redis
 ## 运行
-/admin/order/addRedisNumber 增加redis队列
+/admin/order/addRedisQueue 增加redis队列
 
 /admin/order/sekillApi 秒杀接口地址
 
