@@ -7,7 +7,7 @@ ThinkPHP 5.0 + redis
 ## 测试并发
 ![效果图](https://raw.githubusercontent.com/ekk0/php-redis/master/1.png)
 
-没有发现超卖情况
+没有发现超卖情况或抢不到情况
 
 
 
