@@ -14,7 +14,7 @@ class Order extends \think\Controller{
 
     /**
      * 秒杀请求接口
-     * http://tp5.120.com/admin/order/sekillApi
+     * http://kill.tp5.com/admin/order/sekillApi
      */
     public function sekillApi(){
 

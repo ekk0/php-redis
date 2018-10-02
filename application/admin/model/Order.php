@@ -16,10 +16,9 @@ class Order extends \think\Model
      * @return int
      */
     static public function buildOrderId($uid = 0){
-
-        if((int) $uid > 0){
+        if($uid > 0){
             $order = $uid.time().mt_rand(1000,9999);
-            return (int) $order;
+            return $order;
         }
     }
     /**

@@ -15,8 +15,8 @@ class User extends \think\Model{
      * @return int
      */
     static public function getUserId(){
-        $uid = mt_rand(1,999999999);
-        return (int) $uid;
+        $uid = mt_rand(1000000,9999999);
+        return $uid;
     }
 
     /**
